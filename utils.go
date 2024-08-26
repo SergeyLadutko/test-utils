@@ -1,0 +1,12 @@
+//файл utils.go
+
+package utils
+
+func ContainsInt(a []int, x int) bool {
+	for _, n := range a {
+		if x == n {
+			return true
+		}
+	}
+	return false
+}
